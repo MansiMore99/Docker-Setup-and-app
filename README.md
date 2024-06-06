@@ -8,12 +8,14 @@ ________________________________________________________________________________
 ## What is Docker? 🤔
 Docker is an open-source platform designed to automate the deployment, scaling, and management of applications.
 
-### Dockerfile: A Dockerfile is a text file with instructions to build a Docker image.
+### Dockerfile: 
+A Dockerfile is a text file with instructions to build a Docker image.
 
-RUN Dockerfile → CREATE DockerImage
-RUN DockerImage → CREATE Container
+* RUN Dockerfile → CREATE DockerImage
+* RUN DockerImage → CREATE Container
 
-### Containers: A container is an isolated environment to run any code.
+### Containers: 
+A container is an isolated environment to run any code.
 
 ________________________________________________________________________________________________________________________________________________________________________
 
@@ -63,6 +65,12 @@ ________________________________________________________________________________
 
 
 This guide covers the basic fundamentals of Docker. I will provide detailed information on other parts like Docker Compose, extensions, and more in the respective folders. 📂
+
+
+
+
+
+<a href="https://www.linkedin.com/in/mansi-more-0943/"> ![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
 
 
 
