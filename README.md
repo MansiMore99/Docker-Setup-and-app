@@ -30,8 +30,7 @@ ________________________________________________________________________________
 ## Instructions in Terminal/Command Prompt 💻
 
 1. Create a Directory
-        mkdir welcome-to-docker
-        Navigate to the Directory
+    We aimed to predict essential job skills, functional areas, and salaries within the recruitment landscape.
 
 ________________________________________________________________________________________________________________________________________________________________________
 
