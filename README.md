@@ -32,31 +32,33 @@ ________________________________________________________________________________
 ## Instructions in Terminal/Command Prompt 💻
 
 1. Create a Directory:
-   * $ mkdir welcome-to-docker
+   ```
+    $ mkdir welcome-to-docker
+   ```
 
    
-2. Navigate to the Directory:
+3. Navigate to the Directory:
    * $ cd welcome-to-docker
 
-3. Create and Write a Message inside a File
+4. Create and Write a Message inside a File
    * $ echo "Hello world!" > index.html
 (If the file does not exist, it will be created automatically)
 
-4. Show the Content of the File
+5. Show the Content of the File
    * $ cat index.html
 
-5. Create a Dockerfile
+6. Create a Dockerfile
    * $ touch Dockerfile
 
 
-6. Add the Following Content to the Dockerfile
+7. Add the Following Content to the Dockerfile
    * $ FROM nginx
      COPY index.html /usr/share/nginx/html
 
-7. Build the Docker Image
+8. Build the Docker Image
    * $ docker build -t welcome-to-docker .
 
-8. Run the Docker Container on Port 8080
+9. Run the Docker Container on Port 8080
    * $ docker run -p 8080:80 welcome-to-docker
 
 #### Now, you can access the application running in the container by navigating to http://localhost:8080 in your web browser. 🌐
