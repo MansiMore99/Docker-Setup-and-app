@@ -29,13 +29,41 @@ ________________________________________________________________________________
 
 ## Instructions in Terminal/Command Prompt 💻
 
-1. Create a Directory
-    We aimed to predict essential job skills, functional areas, and salaries within the recruitment landscape.
+1. Create a Directory:
+   $ mkdir welcome-to-docker
+
+   
+2. Navigate to the Directory:
+   $ cd welcome-to-docker
+
+3. Create and Write a Message inside a File
+   $ echo "Hello world!" > index.html
+(If the file does not exist, it will be created automatically)
+
+4. Show the Content of the File
+   $ cat index.html
+
+5. Create a Dockerfile
+   $ touch Dockerfile
+
+
+6. Add the Following Content to the Dockerfile
+   $ FROM nginx
+     COPY index.html /usr/share/nginx/html
+
+7. Build the Docker Image
+   $  docker build -t welcome-to-docker .
+
+8. Run the Docker Container on Port 8080
+   $ docker run -p 8080:80 welcome-to-docker
+
+#### Now, you can access the application running in the container by navigating to http://localhost:8080 in your web browser. 🌐
 
 ________________________________________________________________________________________________________________________________________________________________________
 
 
+This guide covers the basic fundamentals of Docker. I will provide detailed information on other parts like Docker Compose, extensions, and more in the respective folders. 📂
 
-________________________________________________________________________________________________________________________________________________________________________
+
 
 
