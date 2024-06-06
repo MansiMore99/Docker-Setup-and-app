@@ -38,28 +38,42 @@ ________________________________________________________________________________
 
    
 3. Navigate to the Directory:
-   * $ cd welcome-to-docker
+   ```
+    $ cd welcome-to-docker
+   ```
 
 4. Create and Write a Message inside a File
-   * $ echo "Hello world!" > index.html
+    ```
+     $ echo "Hello world!" > index.html
+    ```
 (If the file does not exist, it will be created automatically)
 
 5. Show the Content of the File
-   * $ cat index.html
+   ```
+    $ cat index.html
+   ```
 
 6. Create a Dockerfile
-   * $ touch Dockerfile
+    ```
+     $ touch Dockerfile
+    ```
 
 
 7. Add the Following Content to the Dockerfile
-   * $ FROM nginx
+     ```
+     $ FROM nginx
      COPY index.html /usr/share/nginx/html
+     ```
 
 8. Build the Docker Image
-   * $ docker build -t welcome-to-docker .
+    ```
+    $ docker build -t welcome-to-docker .
+    ```
 
 9. Run the Docker Container on Port 8080
-   * $ docker run -p 8080:80 welcome-to-docker
+    ```
+     $ docker run -p 8080:80 welcome-to-docker
+    ```
 
 #### Now, you can access the application running in the container by navigating to http://localhost:8080 in your web browser. 🌐
 
