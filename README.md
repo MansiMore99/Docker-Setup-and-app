@@ -1,6 +1,6 @@
 # Docker Guide for Beginners 🐳
 
-To complete my project, I needed to learn Docker for using pgvector in PostgreSQL, despite having no prior experience with Docker. 🚀 I researched extensively, watching videos and reading online content. 📚
+To complete my project, I had to learn Docker to use pgvector in PostgreSQL, even though I had no prior experience with Docker. 🚀 I researched extensively, watching videos and reading online content. 📚
 
 This repository is dedicated to those struggling with Docker setup and usage. 🐳 Here is a step-by-step guide to help everyone. 👇
 ________________________________________________________________________________________________________________________________________________________________________
