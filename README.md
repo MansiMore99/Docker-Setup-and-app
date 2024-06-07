@@ -1,12 +1,13 @@
 # Docker Guide for Beginners 🐳
 
-To complete my project, I had to learn Docker to use pgvector in PostgreSQL, even though I had no prior experience with Docker. 🚀 I researched extensively, watching videos and reading online content. 📚
+I know how hard it is to meet deadlines while learning something new. It involved a lot of research, including watching videos and reading online materials. 
+Having no prior experience with Docker, I learned to use pgvector in PostgreSQL for my project in only half a day. 🚀📚
 
 This repository is dedicated to those struggling with Docker setup and usage. 🐳 Here is a step-by-step guide to help everyone. 👇
 ________________________________________________________________________________________________________________________________________________________________________
 
 ## What is Docker? 🤔
-Docker is an open-source platform designed to automate the deployment, scaling, and management of applications.
+Docker is an open-source platform designed to automate application deployment, scaling, and management.
 
 ### Dockerfile: 
 A Dockerfile is a text file with instructions to build a Docker image.
