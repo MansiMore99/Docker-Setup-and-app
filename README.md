@@ -83,6 +83,14 @@ ________________________________________________________________________________
 
 This guide covers the basic fundamentals of Docker. I will provide detailed information on other parts like Docker Compose, extensions, and more in the respective folders. 📂
 
+References:
+
+
+________________________________________________________________________________________________________________________________________________________________________
+
+<a href="[https://www.linkedin.com/in/mansi-more-0943/](https://youtu.be/juHKnNXMao0?si=dPAp53jl_shGfkET)"> </a>
+
+
 
 
 
