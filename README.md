@@ -83,13 +83,11 @@ ________________________________________________________________________________
 
 This guide covers the basic fundamentals of Docker. I will provide detailed information on other parts like Docker Compose, extensions, and more in the respective folders. 📂
 
-References:
-
-
+**References:**
 ________________________________________________________________________________________________________________________________________________________________________
 
-<a href="[https://www.linkedin.com/in/mansi-more-0943/](https://youtu.be/juHKnNXMao0?si=dPAp53jl_shGfkET)"> How To Run Python Scripts In Docker Using Docker Compose </a>
-
+<h3>How To Run Python Scripts In Docker Using Docker Compose</h3>
+<p>For a step-by-step tutorial on running Python scripts in Docker using Docker Compose, check out this <a href="https://youtu.be/juHKnNXMao0?si=S2tDX0EX-1iiQOx1">YouTube tutorial</a>.</p>
 
 
 
