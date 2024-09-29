@@ -28,3 +28,36 @@ docker-compose up
 ```
 
 #### This will start your application defined in docker-compose.yml and make it available at http://localhost:8080.
+______________________________________________________________________________________________________________________________________________________________________________
+
+## Initial Steps:
+
+1. Start service with docker compose.
+```
+docker-compose up -d
+```
+
+2. Verify that the container is running or not.
+```
+docker-compose ps -a
+```
+
+3. Connect to postgreSQL
+```
+psql
+```
+If connecting it for the first time
+```
+psql -h localhost -p 5432 -U your_username -d your_databasename
+```
+
+4. Running SQL queries
+```
+\c your_databasename
+```
+
+5. Stop container
+```
+docker-compose dowm
+```
+or else directly from the docker desktop
